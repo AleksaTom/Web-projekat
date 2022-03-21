@@ -1,0 +1,40 @@
+USE [Main2]
+GO
+SET IDENTITY_INSERT [dbo].[Prenocista] ON 
+
+INSERT [dbo].[Prenocista] ([ID], [Naziv], [Lokacija]) VALUES (1, N'Vila Raj', N'Planina Goč')
+INSERT [dbo].[Prenocista] ([ID], [Naziv], [Lokacija]) VALUES (2, N'Nataly Spa', N'Sokobanja')
+INSERT [dbo].[Prenocista] ([ID], [Naziv], [Lokacija]) VALUES (3, N'Hotel Nais', N'Niš')
+INSERT [dbo].[Prenocista] ([ID], [Naziv], [Lokacija]) VALUES (4, N'Vila Dinčić', N'Srebrno jezero')
+INSERT [dbo].[Prenocista]] ([ID], [Naziv], [Lokacija]) VALUES (5, N'Vikendica Pavle Fishing', N'Obala Drine')
+INSERT [dbo].[Prenocista]] ([ID], [Naziv], [Lokacija]) VALUES (6, N'Etno kuća "Nikolov"', N'Stara planina')
+INSERT [dbo].[Prenocista]] ([ID], [Naziv], [Lokacija]) VALUES (7, N'Prezident Hotel', N'Novi Sad')
+INSERT [dbo].[Prenocista]] ([ID], [Naziv], [Lokacija]) VALUES (8, N'Amsterdam Hotel', N'Beograd')
+SET IDENTITY_INSERT [dbo].[Prenocista]] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Sobe] ON 
+
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (1, N'Jednokrevetna', 1)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (2, N'Dvokrevetna', 1)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (3, N'Trokrevetna', 1)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (4, N'Jednokrevetna', 2)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (5, N'Dvokrevetna+Spa', 2)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (6, N'Jednokrevetna', 3)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (7, N'Trokrevetna', 3)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (8, N'Petokrevetna', 3)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (9, N'Dvokrevetna', 4)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (10, N'Trokrevetna', 4)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (11, N'Jednokrevetna', 5)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (12, N'Trokrevetna', 5)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (13, N'Dvokrevetna', 6)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (14, N'Trokrevetna', 6)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (15, N'Jednokrevetna', 7)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (16, N'Dvokrevetna1', 7)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (17, N'Dvokrevetna2', 7)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (18, N'Trokrevetna', 8)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (19, N'Jednokrevetna', 8)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (20, N'Trokrevetna', 7)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (18, N'DvokrevetnaPrizemlje', 8)
+INSERT [dbo].[Sobe] ([ID], [Naziv], [PrenocisteID]) VALUES (19, N'Dvokrevetna2', 8)
+SET IDENTITY_INSERT [dbo].[Sobe] OFF
+GO

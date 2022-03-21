@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta name=""viewport" content="="width=device-width, initial-scale="1.0">   
+        <title>Serbia Booking</title>
+        <meta charset="UTF-8"> <!-- za nase karaktere-->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+      <Section class="header">
+          <nav>
+              <a href="index.html"><img src="finaallogo.png"></a>
+              <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="">O NAMA</a></li>
+                      <li><a href="">KONTAKT</a></li>
+                  </ul>
+
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <div class="text-box">
+              <h1>Serbian Booking</h1>
+              <p>U našoj državi ima puno zanimljivih mesta za posetiti. Izaberite svoje mesto 
+                  za odmor u par klikova i uživajte!
+
+              </p>
+              <a href="" class="hero-btn">Poseti nas</a>
+          </div>
+      </section>
+
+
+
+
+
+      <script src="main.js" type="module"></script>
+      <script>
+          var nevLinks = document.getElementById("nevLinks");
+          function showMenu(){
+              nevLinks.style.right ="0";
+          }
+          function hideMenu(){
+              nevLinks.style.right ="-200px";
+          }
+      </script>
+    </body>
+</html>
+
+<!---<section class="footer">
+    <h4>O NAMA</h4>
+    <p>Ovaj sajt je kreiran da bi olakšao pretragu, a možda Vam čak i dao ideju gde bi mogli da provedete svoje
+        slobodno vreme. Zbog toga obuhvata više prenoćišta koji sarađuju sa nama.<br> Zakažite svoj smeštaj i uživajte.
+        100% naših korisnika je zadovoljno nama! Ako imate nekih problema, možete da nas kontaktirate! 
+    </p>
+</section>--->
